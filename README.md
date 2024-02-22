@@ -15,7 +15,7 @@ The municipal council faces challenges in efficiently addressing citizens' inqui
 
 ### Requirements:
 - **Python Version**: 3.10
-- **Rasa Version**
+- **Rasa framework**
 
 ## Features
 - **Intent Recognition**: The chatbot recognizes user intents (e.g., inquiries, service requests, feedback) using natural language understanding (NLU) capabilities.
