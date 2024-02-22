@@ -1,0 +1,172 @@
+version: "3.1"
+
+rules:
+- rule: Greet
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Say Goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Affirmation
+  steps:
+    - intent: affirm
+    - action: utter_affirm
+
+- rule: Deny
+  steps:
+    - intent: deny
+    - action: utter_deny
+
+- rule: Bot Challenge
+  steps:
+    - intent: bot_challenge
+    - action: utter_bot_challenge
+
+- rule: Ask for Street Lights SOP
+  steps:
+    - intent: ask_sop_street_lights
+    - action: utter_street_lights
+
+- rule: Ask for Street Dogs SOP
+  steps:
+    - intent: ask_sop_street_dogs
+    - action: utter_street_dogs
+
+- rule: Ask for Cleanliness SOP
+  steps:
+    - intent: ask_sop_cleanliness
+    - action: utter_cleanliness
+
+- rule: Ask for Water Management SOP
+  steps:
+    - intent: ask_sop_water_management
+    - action: utter_water_management
+
+- rule: Ask for Road Maintenance SOP
+  steps:
+    - intent: ask_sop_road_maintenance
+    - action: utter_road_maintenance
+
+- rule: Ask for Waste Management SOP
+  steps:
+    - intent: ask_sop_waste_management
+    - action: utter_waste_management
+
+- rule: Ask for Council Taxes SOP
+  steps:
+    - intent: ask_sop_council_taxes
+    - action: utter_council_taxes
+
+- rule: Ask for Violation SOP
+  steps:
+    - intent: ask_sop_violation
+    - action: utter_violation
+
+- rule: Ask for Health Management SOP
+  steps:
+    - intent: ask_sop_health_management
+    - action: utter_health_management
+
+- rule: Ask for Fire Prevention Measures SOP
+  steps:
+    - intent: ask_sop_fire_prevention_measures
+    - action: utter_fire_prevention_measures
+
+- rule: Ask for Death Body Management SOP
+  steps:
+    - intent: ask_sop_death_body_management
+    - action: utter_death_body_management
+
+- rule: Ask for Orphanage SOP
+  steps:
+    - intent: ask_sop_orphanage
+    - action: utter_orphanage
+
+- rule: Ask for Death/Birth Registration SOP
+  steps:
+    - intent: ask_sop_death_birth_registration
+    - action: utter_death_birth_registration
+
+- rule: Ask for Vaccine SOP
+  steps:
+    - intent: ask_sop_vaccine
+    - action: utter_vaccine
+
+- rule: Ask for Primary Schools and Hospitals SOP
+  steps:
+    - intent: ask_sop_primary_schools_hospitals
+    - action: utter_primary_schools_hospitals
+
+- rule: Ask for Parks SOP
+  steps:
+    - intent: ask_sop_parks
+    - action: utter_parks
+
+- rule: Ask for Census SOP
+  steps:
+    - intent: ask_sop_census
+    - action: utter_census
+
+- rule: Ask for Employee Management SOP
+  steps:
+    - intent: ask_sop_employee_management
+    - action: utter_employee_management
+
+- rule: Ask for Libraries SOP
+  steps:
+    - intent: ask_sop_libraries
+    - action: utter_libraries
+
+- rule: Ask for Renewal of Old Buildings SOP
+  steps:
+    - intent: ask_sop_renewal_old_buildings
+    - action: utter_renewal_old_buildings
+
+- rule: Ask for Legal Industries, Culture, etc. SOP
+  steps:
+    - intent: ask_sop_legal_industries_culture
+    - action: utter_legal_industries_culture
+
+- rule: Ask for Electricity SOP
+  steps:
+    - intent: ask_sop_electricity
+    - action: utter_electricity
+
+- rule: Ask for Election SOP
+  steps:
+    - intent: ask_sop_election
+    - action: utter_election
+
+- rule: Ask for Notices SOP
+  steps:
+    - intent: ask_sop_notices
+    - action: utter_notices
+
+- rule: Ask for Land Distribution SOP
+  steps:
+    - intent: ask_sop_land_distribution
+    - action: utter_land_distribution
+
+- rule: Ask for General Duties
+  steps:
+    - intent: ask_general_info_duties
+    - action: utter_general_info_duties
+
+- rule: Ask for General Responsibilities
+  steps:
+    - intent: ask_general_info_responsibilities
+    - action: utter_general_info_responsibilities
+
+- rule: Ask for Basic Municipal Info
+  steps:
+  - intent: ask_basic_municipal_info
+  - action: utter_basic_municipal_info
+
+- rule: Fallback
+  steps:
+    - intent: fallback
+    - action: utter_fallback

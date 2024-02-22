@@ -1,0 +1,177 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - ask_sop_street_lights
+  - ask_sop_street_dogs
+  - ask_sop_cleanliness
+  - ask_sop_water_management
+  - ask_sop_road_maintenance
+  - ask_sop_waste_management
+  - ask_sop_council_taxes
+  - ask_sop_violation
+  - ask_sop_health_management
+  - ask_sop_fire_prevention_measures
+  - ask_sop_death_body_management
+  - ask_sop_orphanage
+  - ask_sop_death_birth_registration
+  - ask_sop_vaccine
+  - ask_sop_primary_schools_hospitals
+  - ask_sop_parks
+  - ask_sop_census
+  - ask_sop_employee_management
+  - ask_sop_libraries
+  - ask_sop_renewal_old_buildings
+  - ask_sop_legal_industries_culture
+  - ask_sop_electricity
+  - ask_sop_election
+  - ask_sop_notices
+  - ask_sop_land_distribution
+  - ask_basic_municipal_info
+  - ask_general_info_duties
+  - ask_general_info_responsibilities
+  - fallback
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_affirm
+- utter_deny
+- utter_bot_challenge
+- utter_street_lights
+- utter_street_dogs
+- utter_cleanliness
+- utter_water_management
+- utter_road_maintenance
+- utter_waste_management
+- utter_council_taxes
+- utter_violation
+- utter_health_management
+- utter_fire_prevention_measures
+- utter_death_body_management
+- utter_orphanage
+- utter_death_birth_registration
+- utter_vaccine
+- utter_primary_schools_hospitals
+- utter_parks
+- utter_census
+- utter_employee_management
+- utter_libraries
+- utter_renewal_old_buildings
+- utter_legal_industries_culture
+- utter_electricity
+- utter_election
+- utter_notices
+- utter_land_distribution
+- utter_basic_municipal_info
+- utter_general_info_responsibilities
+- utter_general_info_duties
+- utter_fallback
+
+
+responses:
+  utter_greet:
+    - text: "Hello! I am Municipalty-Bot\nHow can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! If you have more questions in the future, feel free to ask."
+
+  utter_affirm:
+    - text: "Yes, that's correct."
+
+  utter_deny:
+    - text: "No, that's not correct."
+
+  utter_bot_challenge:
+    - text: "Yes, I am a bot created to by Vasudha & Vaishnavi"
+
+  utter_street_lights:
+    - text: "The Standard Operating Procedure (SOP) for street lights involves regular maintenance, timely repairs, and energy-efficient technologies to ensure well-lit streets for the safety of the community."
+
+  utter_street_dogs:
+    - text: "The Standard Operating Procedure (SOP) for managing street dogs focuses on humane methods of control, vaccination programs, and community awareness to promote responsible pet ownership."
+
+  utter_cleanliness:
+    - text: "The Standard Operating Procedure (SOP) for cleanliness outlines procedures for waste collection, disposal, and street cleaning to maintain a clean and healthy environment for residents."
+
+  utter_water_management:
+    - text: "The Standard Operating Procedure (SOP) for water management covers the sourcing, treatment, and distribution of water, along with measures for water conservation and quality control."
+
+  utter_road_maintenance:
+    - text: "The Standard Operating Procedure (SOP) for road maintenance includes regular inspections, timely repairs, and road safety measures to ensure well-maintained and safe roadways."
+
+  utter_waste_management:
+    - text: "The Standard Operating Procedure (SOP) for waste management includes guidelines for waste collection, segregation, recycling, and disposal to promote sustainable and eco-friendly practices."
+
+  utter_council_taxes:
+    - text: "The Standard Operating Procedure (SOP) for council taxes outlines the procedures for assessment, billing, and collection of taxes to fund essential municipal services and infrastructure."
+
+  utter_violation:
+    - text: "The Standard Operating Procedure (SOP) for handling violations details the enforcement measures and penalties for violations of municipal rules and regulations."
+
+  utter_health_management:
+    - text: "The Standard Operating Procedure (SOP) for health management includes guidelines for public health initiatives, disease prevention, and health infrastructure maintenance."
+
+  utter_fire_prevention_measures:
+    - text: "The Standard Operating Procedure (SOP) for fire prevention measures includes guidelines for fire safety inspections, emergency response plans, and community awareness programs."
+
+  utter_death_body_management:
+    - text: "The Standard Operating Procedure (SOP) for death body management outlines procedures for respectful handling and disposal of deceased individuals in accordance with legal and cultural norms."
+
+  utter_orphanage:
+    - text: "The Standard Operating Procedure (SOP) for orphanages includes guidelines for the care, education, and well-being of orphaned children, ensuring a supportive and nurturing environment."
+
+  utter_death_birth_registration:
+    - text: "The Standard Operating Procedure (SOP) for death/birth registration covers the registration process, documentation requirements, and legal procedures for recording vital events."
+
+  utter_vaccine:
+    - text: "The Standard Operating Procedure (SOP) for vaccines includes guidelines for vaccination programs, storage, distribution, and public awareness to ensure community health."
+
+  utter_primary_schools_hospitals:
+    - text: "The Standard Operating Procedure (SOP) for primary schools and hospitals outlines procedures for maintenance, safety, and quality standards to ensure optimal functioning."
+
+  utter_parks:
+    - text: "The Standard Operating Procedure (SOP) for parks includes guidelines for maintenance, safety, and recreational activities to create vibrant and well-kept public spaces."
+
+  utter_census:
+    - text: "The Standard Operating Procedure (SOP) for census outlines the procedures for data collection, analysis, and reporting to gather demographic information for urban planning."
+
+  utter_employee_management:
+    - text: "The Standard Operating Procedure (SOP) for employee management covers recruitment, training, performance evaluation, and welfare initiatives for municipal staff."
+
+  utter_libraries:
+    - text: "The Standard Operating Procedure (SOP) for libraries includes guidelines for library services, collection management, and community engagement to promote literacy and education."
+
+  utter_renewal_old_buildings:
+    - text: "The Standard Operating Procedure (SOP) for the renewal of old buildings outlines procedures for preservation, renovation, and adaptive reuse to protect historical structures."
+
+  utter_legal_industries_culture:
+    - text: "The Standard Operating Procedure (SOP) for legal industries, culture, etc., covers guidelines for regulating legal activities, cultural events, and creative industries for community development."
+
+  utter_electricity:
+    - text: "The Standard Operating Procedure (SOP) for electricity includes guidelines for power distribution, maintenance, and energy efficiency to ensure a reliable and sustainable energy supply."
+
+  utter_election:
+    - text: "The Standard Operating Procedure (SOP) for elections covers the electoral process, voter registration, polling, and result tabulation to ensure fair and transparent elections."
+
+  utter_notices:
+    - text: "The Standard Operating Procedure (SOP) for notices includes guidelines for public announcements, notifications, and information dissemination to keep residents informed."
+
+  utter_land_distribution:
+    - text: "The Standard Operating Procedure (SOP) for land distribution outlines procedures for allocating land for parks, hospitals, temples, schools, etc., in a fair and transparent manner."
+
+  utter_basic_municipal_info:
+    - text: "The municipal council plays a crucial role in urban development, governance, and service provision. If you have specific questions about municipal services or policies, feel free to ask."
+
+  utter_general_info_duties:
+    - text: "The municipal council has various duties, including urban planning, infrastructure development, public service provision, and community engagement, contributing to the overall well-being of the city."
+
+  utter_general_info_responsibilities:
+    - text: "The municipal council is responsible for tasks such as governance, policy-making, resource allocation, community engagement, and collaborating with other authorities for holistic urban development."
+
+  utter_fallback:
+    - text: "I'm sorry, I didn't understand that."

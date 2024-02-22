@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@scalableminds/chatroom@0.12.0/dist/Chatroom.min.css
+    " rel="stylesheet">
+  </head>
+    <body background-color:#fa7070>
+      <div class="chat-container"></div>
+    
+      <script src="
+  https://cdn.jsdelivr.net/npm/@scalableminds/chatroom@0.12.0/dist/Chatroom.min.js
+  "></script>
+  <script type="text/javascript">
+        var chatroom = new window.Chatroom({
+        
+          host: "http://localhost:5005",
+          title: "Chatbot For Minicipal Council",
+         container: document.querySelector(".chat-container"),
+        welcomeMessage: "Hi, How can I assist you?",
+          
+          
+        });
+        chatroom.openChat();
+      </script>
+    </body>
+</html>

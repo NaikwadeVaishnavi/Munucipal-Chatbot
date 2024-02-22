@@ -1,0 +1,206 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+    - Greetings
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Farewell
+    - See you later
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Indeed
+    - That's correct
+
+- intent: deny
+  examples: |
+    - No
+    - Incorrect
+    - I disagree
+
+- intent: bot_challenge
+  examples: |
+    - Are you a bot?
+    - Is this a computer program?
+
+- intent: ask_sop_street_lights
+  examples: |
+    - Tell me about street lights SOP
+    - What are the procedures for street lights?
+    - Explain street lights guidelines
+
+- intent: ask_sop_street_dogs
+  examples: |
+    - Street dogs SOP
+    - How to handle stray dogs?
+    - Animal control procedures
+
+- intent: ask_sop_cleanliness
+  examples: |
+    - How is cleanliness maintained in the city?
+    - Tell me about waste disposal guidelines
+    - Explain street sweeping schedules
+
+- intent: ask_sop_water_management
+  examples: |
+    - What is the SOP for water management?
+    - Explain water quality testing procedures
+    - Tell me about water conservation initiatives
+
+- intent: ask_sop_road_maintenance
+  examples: |
+    - What are the procedures for road maintenance?
+    - Explain pothole repair procedures
+    - Tell me about road signage maintenance
+
+- intent: ask_sop_waste_management
+  examples: |
+    - How is waste managed in the city?
+    - Explain waste segregation guidelines
+    - Tell me about recycling initiatives
+
+- intent: ask_sop_council_taxes
+  examples: |
+    - Tell me about council taxes SOP
+    - Explain the tax assessment process
+    - What are the penalty procedures?
+
+- intent: ask_sop_violation
+  examples: |
+    - What is the SOP for handling violations?
+    - Explain enforcement procedures
+    - How are penalties imposed?
+
+- intent: ask_sop_health_management
+  examples: |
+    - Explain contagious (health management) SOP
+    - What are the disease monitoring protocols?
+    - Tell me about emergency response procedures
+
+- intent: ask_sop_fire_prevention_measures
+  examples: |
+    - Explain the SOP for fire prevention measures
+    - What are the emergency evacuation plans?
+    - How is firefighting equipment maintained?
+
+- intent: ask_sop_death_body_management
+  examples: |
+    - What are the procedures for handling deceased individuals?
+    - Explain collaboration with funeral services
+    - How is documentation and reporting done?
+
+- intent: ask_sop_orphanage
+  examples: |
+    - Explain orphanage SOP
+    - What are the licensing procedures?
+    - Tell me about child welfare guidelines
+
+- intent: ask_sop_death_birth_registration
+  examples: |
+    - What is the SOP for death/birth registration?
+    - Explain registration processes and documentation
+    - How are data security and confidentiality maintained?
+
+- intent: ask_sop_vaccine
+  examples: |
+    - Explain vaccine SOP
+    - What are the vaccination schedules?
+    - Tell me about cold chain management
+
+- intent: ask_sop_primary_schools_hospitals
+  examples: |
+    - What is the SOP for primary schools and hospitals?
+    - Explain information dissemination to the public
+    - How is collaboration with institutions done?
+
+- intent: ask_sop_parks
+  examples: |
+    - How are parks maintained in the city?
+    - Explain events and activities coordination
+    - What security measures are in place?
+
+- intent: ask_sop_census
+  examples: |
+    - What is the SOP for census?
+    - Explain data collection procedures
+    - How is privacy maintained?
+
+- intent: ask_sop_employee_management
+  examples: |
+    - What is the SOP for employee management?
+    - Explain hiring procedures
+    - How is performance evaluated?
+
+- intent: ask_sop_libraries
+  examples: |
+    - Explain libraries SOP
+    - What are the library services and programs?
+    - Tell me about public access policies
+
+- intent: ask_sop_renewal_old_buildings
+  examples: |
+    - What is the SOP for the renewal of old buildings?
+    - Explain criteria for building renewal
+    - How is compliance with preservation guidelines ensured?
+
+- intent: ask_sop_legal_industries_culture
+  examples: |
+    - What is the SOP for legal industries, culture, etc.?
+    - Explain licensing and regulation procedures
+    - How is coordination done for cultural events?
+
+- intent: ask_sop_electricity
+  examples: |
+    - What is the SOP for electricity?
+    - Explain power distribution and maintenance
+    - How are power outages responded to?
+
+- intent: ask_sop_election
+  examples: |
+    - What is the SOP for elections?
+    - Explain electoral processes and procedures
+    - How is election security ensured?
+
+- intent: ask_sop_notices
+  examples: |
+    - What is the SOP for notices?
+    - Explain public notification processes
+    - How is information timely disseminated?
+
+- intent: ask_sop_land_distribution
+  examples: |
+    - What is the SOP for land distribution?
+    - Explain criteria for land allocation
+    - How is compliance with zoning regulations ensured?
+
+- intent: ask_general_info_duties
+  examples: |
+    - What are the duties of the municipal council?
+    - Explain the responsibilities of the municipal council
+    - Tell me about the council's tasks
+
+- intent: ask_general_info_responsibilities
+  examples: |
+    - What responsibilities does the municipal council have?
+    - Explain the roles of the council
+    - Tell me about the council's responsibilities
+
+- intent: ask_basic_municipal_info
+  examples: |
+    - Tell me about the basic municipal information
+    - What is basic municipal info?
+    - Can you provide details about the municipality?
+
+- intent: fallback
+  examples: |
+    - I don't understand
+    - Can you repeat that?
+    - Sorry, I'm confused
